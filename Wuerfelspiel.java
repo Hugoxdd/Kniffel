@@ -48,21 +48,21 @@ class Wuerfelspiel
      switch(spieler)
      {
        case 1:
-       System.out.println("Der Spieler mit der größten Augenzahl beginnt.");
+       System.out.println("Der Spieler mit der grÃ¶ÃŸten Augenzahl beginnt.");
        w1.anfangen();
        w2.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
        System.out.println("");
-       while(w1.würfel[0] == w2.würfel[0])
+       while(w1.wurfel[0] == w2.wurfel[0])
        {
        w1.anfangen();
        w2.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
        System.out.println("");
        }
-       if(w1.würfel[0] > w2.würfel[0])
+       if(w1.wurfel[0] > w2.wurfel[0])
        {
          anfang = 1;
        }
@@ -76,13 +76,13 @@ class Wuerfelspiel
         {
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus2();
+         w2.wurfeln();
+         w2.wurfelraus2();
          w2.waehlen2();
         }
 
@@ -90,13 +90,13 @@ class Wuerfelspiel
          {
            System.out.println("");
            System.out.println("Spieler 2 Sie sind dran!");
-           w2.würfeln();
-           w2.würfelraus2();
+           w2.wurfeln();
+           w2.wurfelraus2();
            w2.waehlen2();
            System.out.println("");
            System.out.println("Spieler 1 Sie sind dran!");
-           w1.würfeln();
-           w1.würfelraus();
+           w1.wurfeln();
+           w1.wurfelraus();
            w1.waehlen();
          }
          }
@@ -118,8 +118,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w1.ergebnis[6]);
        System.out.println("  Viererpasch : " + w1.ergebnis[7]);
        System.out.println("   Full-House : " + w1.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w1.ergebnis[9]);
-       System.out.println(" Große Straße : " + w1.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w1.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w1.ergebnis[10]);
        System.out.println("      Kniffel : " + w1.ergebnis[11]);
        System.out.println("       Chance : " + w1.ergebnis[12]);
        System.out.println("");
@@ -143,8 +143,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w2.ergebnis[6]);
        System.out.println("  Viererpasch : " + w2.ergebnis[7]);
        System.out.println("   Full-House : " + w2.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w2.ergebnis[9]);
-       System.out.println(" Große Straße : " + w2.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w2.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w2.ergebnis[10]);
        System.out.println("      Kniffel : " + w2.ergebnis[11]);
        System.out.println("       Chance : " + w2.ergebnis[12]);
        System.out.println("");
@@ -153,21 +153,21 @@ class Wuerfelspiel
        break;
        case 2:
 
-       System.out.println("Der Spieler mit der größten Augenzahl beginnt.");
+       System.out.println("Der Spieler mit der grÃ¶ÃŸten Augenzahl beginnt.");
        w1.anfangen();
        w2.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
        System.out.println("");
-       while(w1.würfel[0] == w2.würfel[0])
+       while(w1.wurfel[0] == w2.wurfel[0])
        {
        w1.anfangen();
        w2.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
        System.out.println("");
        }
-       if(w1.würfel[0] > w2.würfel[0])
+       if(w1.wurfel[0] > w2.wurfel[0])
        {
          anfang = 1;
        }
@@ -181,13 +181,13 @@ class Wuerfelspiel
         {
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
         }
 
@@ -195,13 +195,13 @@ class Wuerfelspiel
          {
            System.out.println("");
            System.out.println("Spieler 2 Sie sind dran!");
-           w2.würfeln();
-           w2.würfelraus();
+           w2.wurfeln();
+           w2.wurfelraus();
            w2.waehlen();
            System.out.println("");
            System.out.println("Spieler 1 Sie sind dran!");
-           w1.würfeln();
-           w1.würfelraus();
+           w1.wurfeln();
+           w1.wurfelraus();
            w1.waehlen();
          }
       }
@@ -223,8 +223,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w1.ergebnis[6]);
        System.out.println("  Viererpasch : " + w1.ergebnis[7]);
        System.out.println("   Full-House : " + w1.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w1.ergebnis[9]);
-       System.out.println(" Große Straße : " + w1.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w1.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w1.ergebnis[10]);
        System.out.println("      Kniffel : " + w1.ergebnis[11]);
        System.out.println("       Chance : " + w1.ergebnis[12]);
        System.out.println("");
@@ -248,8 +248,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w2.ergebnis[6]);
        System.out.println("  Viererpasch : " + w2.ergebnis[7]);
        System.out.println("   Full-House : " + w2.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w2.ergebnis[9]);
-       System.out.println(" Große Straße : " + w2.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w2.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w2.ergebnis[10]);
        System.out.println("      Kniffel : " + w2.ergebnis[11]);
        System.out.println("       Chance : " + w2.ergebnis[12]);
        System.out.println("");
@@ -257,33 +257,33 @@ class Wuerfelspiel
 
        break;
        case 3:
-       System.out.println("Der Spieler mit der größten Augenzahl beginnt.");
+       System.out.println("Der Spieler mit der grÃ¶ÃŸten Augenzahl beginnt.");
        w1.anfangen();
        w2.anfangen();
        w3.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
-       System.out.println("Spieler 3: " + w3.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
+       System.out.println("Spieler 3: " + w3.wurfel[0]);
        System.out.println("");
-       while(w1.würfel[0] == w2.würfel[0] || w2.würfel[0] == w3.würfel[0] || w1.würfel[0] == w3.würfel[0])
+       while(w1.wurfel[0] == w2.wurfel[0] || w2.wurfel[0] == w3.wurfel[0] || w1.wurfel[0] == w3.wurfel[0])
        {
         w1.anfangen();
         w2.anfangen();
         w3.anfangen();
-        System.out.println("Spieler 1: " + w1.würfel[0]);
-        System.out.println("Spieler 2: " + w2.würfel[0]);
-        System.out.println("Spieler 3: " + w3.würfel[0]);
+        System.out.println("Spieler 1: " + w1.wurfel[0]);
+        System.out.println("Spieler 2: " + w2.wurfel[0]);
+        System.out.println("Spieler 3: " + w3.wurfel[0]);
         System.out.println("");
        }
-       if(w1.würfel[0] > w2.würfel[0] && w1.würfel[0] > w3.würfel[0])
+       if(w1.wurfel[0] > w2.wurfel[0] && w1.wurfel[0] > w3.wurfel[0])
        {
          anfang = 1;
        }
-       else if(w2.würfel[0] > w3.würfel[0] && w2.würfel[0] > w1.würfel[0])
+       else if(w2.wurfel[0] > w3.wurfel[0] && w2.wurfel[0] > w1.wurfel[0])
        {
          anfang = 2;
        }
-       else if(w3.würfel[0] > w2.würfel[0] && w3.würfel[0] > w1.würfel[0])
+       else if(w3.wurfel[0] > w2.wurfel[0] && w3.wurfel[0] > w1.wurfel[0])
        {
          anfang = 3;
        }
@@ -294,54 +294,54 @@ class Wuerfelspiel
        {
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
         }
         if(anfang == 2)
         {
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
         }
         if(anfang == 3)
         {
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
         }
        }
@@ -364,8 +364,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w1.ergebnis[6]);
        System.out.println("  Viererpasch : " + w1.ergebnis[7]);
        System.out.println("   Full-House : " + w1.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w1.ergebnis[9]);
-       System.out.println(" Große Straße : " + w1.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w1.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w1.ergebnis[10]);
        System.out.println("      Kniffel : " + w1.ergebnis[11]);
        System.out.println("       Chance : " + w1.ergebnis[12]);
        System.out.println("");
@@ -389,8 +389,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w2.ergebnis[6]);
        System.out.println("  Viererpasch : " + w2.ergebnis[7]);
        System.out.println("   Full-House : " + w2.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w2.ergebnis[9]);
-       System.out.println(" Große Straße : " + w2.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w2.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w2.ergebnis[10]);
        System.out.println("      Kniffel : " + w2.ergebnis[11]);
        System.out.println("       Chance : " + w2.ergebnis[12]);
        System.out.println("");
@@ -414,8 +414,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w3.ergebnis[6]);
        System.out.println("  Viererpasch : " + w3.ergebnis[7]);
        System.out.println("   Full-House : " + w3.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w3.ergebnis[9]);
-       System.out.println(" Große Straße : " + w3.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w3.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w3.ergebnis[10]);
        System.out.println("      Kniffel : " + w3.ergebnis[11]);
        System.out.println("       Chance : " + w3.ergebnis[12]);
        System.out.println("");
@@ -423,41 +423,41 @@ class Wuerfelspiel
 
        break;
        case 4:
-       System.out.println("Der Spieler mit der größten Augenzahl beginnt.");
+       System.out.println("Der Spieler mit der grÃ¶ÃŸten Augenzahl beginnt.");
        w1.anfangen();
        w2.anfangen();
        w3.anfangen();
        w4.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
-       System.out.println("Spieler 3: " + w3.würfel[0]);
-       System.out.println("Spieler 4: " + w4.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
+       System.out.println("Spieler 3: " + w3.wurfel[0]);
+       System.out.println("Spieler 4: " + w4.wurfel[0]);
        System.out.println("");
-       while(w1.würfel[0] == w2.würfel[0] || w2.würfel[0] == w3.würfel[0] || w1.würfel[0] == w3.würfel[0] || w4.würfel[0] == w1.würfel[0] || w4.würfel[0] == w2.würfel[0] || w4.würfel[0] == w3.würfel[0])
+       while(w1.wurfel[0] == w2.wurfel[0] || w2.wurfel[0] == w3.wurfel[0] || w1.wurfel[0] == w3.wurfel[0] || w4.wurfel[0] == w1.wurfel[0] || w4.wurfel[0] == w2.wurfel[0] || w4.wurfel[0] == w3.wurfel[0])
        {
         w1.anfangen();
         w2.anfangen();
         w3.anfangen();
         w4.anfangen();
-        System.out.println("Spieler 1: " + w1.würfel[0]);
-        System.out.println("Spieler 2: " + w2.würfel[0]);
-        System.out.println("Spieler 3: " + w3.würfel[0]);
-        System.out.println("Spieler 4: " + w4.würfel[0]);
+        System.out.println("Spieler 1: " + w1.wurfel[0]);
+        System.out.println("Spieler 2: " + w2.wurfel[0]);
+        System.out.println("Spieler 3: " + w3.wurfel[0]);
+        System.out.println("Spieler 4: " + w4.wurfel[0]);
         System.out.println("");
        }
-       if(w1.würfel[0] > w2.würfel[0] && w1.würfel[0] > w3.würfel[0])
+       if(w1.wurfel[0] > w2.wurfel[0] && w1.wurfel[0] > w3.wurfel[0])
        {
          anfang = 1;
        }
-       else if(w2.würfel[0] > w3.würfel[0] && w2.würfel[0] > w1.würfel[0])
+       else if(w2.wurfel[0] > w3.wurfel[0] && w2.wurfel[0] > w1.wurfel[0])
        {
          anfang = 2;
        }
-       else if(w3.würfel[0] > w2.würfel[0] && w3.würfel[0] > w1.würfel[0])
+       else if(w3.wurfel[0] > w2.wurfel[0] && w3.wurfel[0] > w1.wurfel[0])
        {
          anfang = 3;
        }
-       else if(w4.würfel[0] > w1.würfel[0] && w4.würfel[0] > w2.würfel[0] && w4.würfel[0] > w3.würfel[0])
+       else if(w4.wurfel[0] > w1.wurfel[0] && w4.wurfel[0] > w2.wurfel[0] && w4.wurfel[0] > w3.wurfel[0])
        {
          anfang = 4;
        }
@@ -467,92 +467,92 @@ class Wuerfelspiel
        {
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
         }
         if(anfang == 2)
         {
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
         }
         if(anfang == 3)
         {
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
         }
         if(anfang == 4)
         {
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
         }
        }
@@ -575,8 +575,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w1.ergebnis[6]);
        System.out.println("  Viererpasch : " + w1.ergebnis[7]);
        System.out.println("   Full-House : " + w1.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w1.ergebnis[9]);
-       System.out.println(" Große Straße : " + w1.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w1.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w1.ergebnis[10]);
        System.out.println("      Kniffel : " + w1.ergebnis[11]);
        System.out.println("       Chance : " + w1.ergebnis[12]);
        System.out.println("");
@@ -600,8 +600,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w2.ergebnis[6]);
        System.out.println("  Viererpasch : " + w2.ergebnis[7]);
        System.out.println("   Full-House : " + w2.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w2.ergebnis[9]);
-       System.out.println(" Große Straße : " + w2.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w2.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w2.ergebnis[10]);
        System.out.println("      Kniffel : " + w2.ergebnis[11]);
        System.out.println("       Chance : " + w2.ergebnis[12]);
        System.out.println("");
@@ -625,8 +625,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w3.ergebnis[6]);
        System.out.println("  Viererpasch : " + w3.ergebnis[7]);
        System.out.println("   Full-House : " + w3.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w3.ergebnis[9]);
-       System.out.println(" Große Straße : " + w3.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w3.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w3.ergebnis[10]);
        System.out.println("      Kniffel : " + w3.ergebnis[11]);
        System.out.println("       Chance : " + w3.ergebnis[12]);
        System.out.println("");
@@ -650,8 +650,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w4.ergebnis[6]);
        System.out.println("  Viererpasch : " + w4.ergebnis[7]);
        System.out.println("   Full-House : " + w4.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w4.ergebnis[9]);
-       System.out.println(" Große Straße : " + w4.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w4.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w4.ergebnis[10]);
        System.out.println("      Kniffel : " + w4.ergebnis[11]);
        System.out.println("       Chance : " + w4.ergebnis[12]);
        System.out.println("");
@@ -659,49 +659,49 @@ class Wuerfelspiel
 
        break;
        case 5:
-       System.out.println("Der Spieler mit der größten Augenzahl beginnt.");
+       System.out.println("Der Spieler mit der grÃ¶ÃŸten Augenzahl beginnt.");
        w1.anfangen();
        w2.anfangen();
        w3.anfangen();
        w4.anfangen();
        w5.anfangen();
-       System.out.println("Spieler 1: " + w1.würfel[0]);
-       System.out.println("Spieler 2: " + w2.würfel[0]);
-       System.out.println("Spieler 3: " + w3.würfel[0]);
-       System.out.println("Spieler 4: " + w4.würfel[0]);
-       System.out.println("Spieler 5: " + w5.würfel[0]);
+       System.out.println("Spieler 1: " + w1.wurfel[0]);
+       System.out.println("Spieler 2: " + w2.wurfel[0]);
+       System.out.println("Spieler 3: " + w3.wurfel[0]);
+       System.out.println("Spieler 4: " + w4.wurfel[0]);
+       System.out.println("Spieler 5: " + w5.wurfel[0]);
        System.out.println("");
-       while(w1.würfel[0] == w2.würfel[0] || w2.würfel[0] == w3.würfel[0] || w1.würfel[0] == w3.würfel[0] || w4.würfel[0] == w1.würfel[0] || w4.würfel[0] == w2.würfel[0] || w4.würfel[0] == w3.würfel[0] || w5.würfel[0] == w1.würfel[0] || w5.würfel[0] == w3.würfel[0] || w5.würfel[0] == w4.würfel[0])
+       while(w1.wurfel[0] == w2.wurfel[0] || w2.wurfel[0] == w3.wurfel[0] || w1.wurfel[0] == w3.wurfel[0] || w4.wurfel[0] == w1.wurfel[0] || w4.wurfel[0] == w2.wurfel[0] || w4.wurfel[0] == w3.wurfel[0] || w5.wurfel[0] == w1.wurfel[0] || w5.wurfel[0] == w3.wurfel[0] || w5.wurfel[0] == w4.wurfel[0])
        {
         w1.anfangen();
         w2.anfangen();
         w3.anfangen();
         w4.anfangen();
         w5.anfangen();
-        System.out.println("Spieler 1: " + w1.würfel[0]);
-        System.out.println("Spieler 2: " + w2.würfel[0]);
-        System.out.println("Spieler 3: " + w3.würfel[0]);
-        System.out.println("Spieler 4: " + w4.würfel[0]);
-        System.out.println("Spieler 5: " + w5.würfel[0]);
+        System.out.println("Spieler 1: " + w1.wurfel[0]);
+        System.out.println("Spieler 2: " + w2.wurfel[0]);
+        System.out.println("Spieler 3: " + w3.wurfel[0]);
+        System.out.println("Spieler 4: " + w4.wurfel[0]);
+        System.out.println("Spieler 5: " + w5.wurfel[0]);
         System.out.println("");
        }
-       if(w1.würfel[0] > w2.würfel[0] && w1.würfel[0] > w3.würfel[0])
+       if(w1.wurfel[0] > w2.wurfel[0] && w1.wurfel[0] > w3.wurfel[0])
        {
          anfang = 1;
        }
-       else if(w2.würfel[0] > w3.würfel[0] && w2.würfel[0] > w1.würfel[0])
+       else if(w2.wurfel[0] > w3.wurfel[0] && w2.wurfel[0] > w1.wurfel[0])
        {
          anfang = 2;
        }
-       else if(w3.würfel[0] > w2.würfel[0] && w3.würfel[0] > w1.würfel[0])
+       else if(w3.wurfel[0] > w2.wurfel[0] && w3.wurfel[0] > w1.wurfel[0])
        {
          anfang = 3;
        }
-       else if(w4.würfel[0] > w1.würfel[0] && w4.würfel[0] > w2.würfel[0] && w4.würfel[0] > w3.würfel[0])
+       else if(w4.wurfel[0] > w1.wurfel[0] && w4.wurfel[0] > w2.wurfel[0] && w4.wurfel[0] > w3.wurfel[0])
        {
          anfang = 4;
        }
-       else if(w5.würfel[0] > w1.würfel[0] && w5.würfel[0] > w2.würfel[0] && w5.würfel[0] > w3.würfel[0] && w5.würfel[0] > w4.würfel[0])
+       else if(w5.wurfel[0] > w1.wurfel[0] && w5.wurfel[0] > w2.wurfel[0] && w5.wurfel[0] > w3.wurfel[0] && w5.wurfel[0] > w4.wurfel[0])
        {
          anfang = 5;
        }
@@ -711,140 +711,140 @@ class Wuerfelspiel
         {
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 5 Sie sind dran!");
-         w5.würfeln();
-         w5.würfelraus();
+         w5.wurfeln();
+         w5.wurfelraus();
          w5.waehlen();
         }
        if(anfang == 2)
         {
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 5 Sie sind dran!");
-         w5.würfeln();
-         w5.würfelraus();
+         w5.wurfeln();
+         w5.wurfelraus();
          w5.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
         }
         if(anfang == 3)
         {
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 5 Sie sind dran!");
-         w5.würfeln();
-         w5.würfelraus();
+         w5.wurfeln();
+         w5.wurfelraus();
          w5.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
         }
         if(anfang == 4)
         {
          System.out.println("");
          System.out.println("Spieler 4 Sie sind dran!");
-         w4.würfeln();
-         w4.würfelraus();
+         w4.wurfeln();
+         w4.wurfelraus();
          w4.waehlen();
          System.out.println("");
          System.out.println("Spieler 5 Sie sind dran!");
-         w5.würfeln();
-         w5.würfelraus();
+         w5.wurfeln();
+         w5.wurfelraus();
          w5.waehlen();
          System.out.println("");
          System.out.println("Spieler 1 Sie sind dran!");
-         w1.würfeln();
-         w1.würfelraus();
+         w1.wurfeln();
+         w1.wurfelraus();
          w1.waehlen();
          System.out.println("");
          System.out.println("Spieler 2 Sie sind dran!");
-         w2.würfeln();
-         w2.würfelraus();
+         w2.wurfeln();
+         w2.wurfelraus();
          w2.waehlen();
          System.out.println("");
          System.out.println("Spieler 3 Sie sind dran!");
-         w3.würfeln();
-         w3.würfelraus();
+         w3.wurfeln();
+         w3.wurfelraus();
          w3.waehlen();
         }
         if(anfang == 5)
         {
         System.out.println("");
         System.out.println("Spieler 5 Sie sind dran!");
-        w5.würfeln();
-        w5.würfelraus();
+        w5.wurfeln();
+        w5.wurfelraus();
         w5.waehlen();
         System.out.println("");
         System.out.println("Spieler 1 Sie sind dran!");
-        w1.würfeln();
-        w1.würfelraus();
+        w1.wurfeln();
+        w1.wurfelraus();
         w1.waehlen();
         System.out.println("");
         System.out.println("Spieler 2 Sie sind dran!");
-        w2.würfeln();
-        w2.würfelraus();
+        w2.wurfeln();
+        w2.wurfelraus();
         w2.waehlen();
         System.out.println("");
         System.out.println("Spieler 3 Sie sind dran!");
-        w3.würfeln();
-        w3.würfelraus();
+        w3.wurfeln();
+        w3.wurfelraus();
         w3.waehlen();
         System.out.println("");
         System.out.println("Spieler 4 Sie sind dran!");
-        w4.würfeln();
-        w4.würfelraus();
+        w4.wurfeln();
+        w4.wurfelraus();
         w4.waehlen();
         }
        }
@@ -867,8 +867,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w1.ergebnis[6]);
        System.out.println("  Viererpasch : " + w1.ergebnis[7]);
        System.out.println("   Full-House : " + w1.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w1.ergebnis[9]);
-       System.out.println(" Große Straße : " + w1.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w1.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w1.ergebnis[10]);
        System.out.println("      Kniffel : " + w1.ergebnis[11]);
        System.out.println("       Chance : " + w1.ergebnis[12]);
        System.out.println("");
@@ -892,8 +892,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w2.ergebnis[6]);
        System.out.println("  Viererpasch : " + w2.ergebnis[7]);
        System.out.println("   Full-House : " + w2.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w2.ergebnis[9]);
-       System.out.println(" Große Straße : " + w2.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w2.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w2.ergebnis[10]);
        System.out.println("      Kniffel : " + w2.ergebnis[11]);
        System.out.println("       Chance : " + w2.ergebnis[12]);
        System.out.println("");
@@ -917,8 +917,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w3.ergebnis[6]);
        System.out.println("  Viererpasch : " + w3.ergebnis[7]);
        System.out.println("   Full-House : " + w3.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w3.ergebnis[9]);
-       System.out.println(" Große Straße : " + w3.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w3.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w3.ergebnis[10]);
        System.out.println("      Kniffel : " + w3.ergebnis[11]);
        System.out.println("       Chance : " + w3.ergebnis[12]);
        System.out.println("");
@@ -942,8 +942,8 @@ class Wuerfelspiel
        
        System.out.println("  Viererpasch : " + w4.ergebnis[7]);
        System.out.println("   Full-House : " + w4.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w4.ergebnis[9]);
-       System.out.println(" Große Straße : " + w4.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w4.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w4.ergebnis[10]);
        System.out.println("      Kniffel : " + w4.ergebnis[11]);
        System.out.println("       Chance : " + w4.ergebnis[12]);
        System.out.println("");
@@ -967,8 +967,8 @@ class Wuerfelspiel
        System.out.println("  Dreierpasch : " + w5.ergebnis[6]);
        System.out.println("  Viererpasch : " + w5.ergebnis[7]);
        System.out.println("   Full-House : " + w5.ergebnis[8]);
-       System.out.println("Kleine Straße : " + w5.ergebnis[9]);
-       System.out.println(" Große Straße : " + w5.ergebnis[10]);
+       System.out.println("Kleine StraÃŸe : " + w5.ergebnis[9]);
+       System.out.println(" GroÃŸe StraÃŸe : " + w5.ergebnis[10]);
        System.out.println("      Kniffel : " + w5.ergebnis[11]);
        System.out.println("       Chance : " + w5.ergebnis[12]);
        System.out.println("");
@@ -976,7 +976,7 @@ class Wuerfelspiel
 
        break;
        default:
-       System.out.println("Ungültige Anzahl!");
+       System.out.println("UngÃ¼ltige Anzahl!");
        break;
      }
     
@@ -986,19 +986,19 @@ class Wuerfelspiel
 
 class Wuerfel
 {
-  int[]würfel;
+  int[]wurfel;
   boolean[]genutzt;
   int[]ergebnis;
   int einser;
   int zwergebnis;
   boolean[]zahlen;
-  int[]würfel2;
+  int[]wurfel2;
   int[]sortieren;
   int[]zw;
   int[]raus;
   Random Zufall = new Random();
   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-  String würfelraus;
+  String wurfelraus;
   
   public Wuerfel()
   {
@@ -1007,36 +1007,36 @@ class Wuerfel
     } catch (java.io.UnsupportedEncodingException e) {
       System.out.println(e);
     }
-    würfel = new int[5];
+    wurfel = new int[5];
     genutzt = new boolean[13];
     ergebnis = new int[13];
     zahlen = new boolean[5];
-    würfel2 = new int[2];
+    wurfel2 = new int[2];
     sortieren = new int[5];
     zw = new int[4];
     raus = new int[5];
     einser = 0;
     zwergebnis = 0;
-    würfelraus = "";
+    wurfelraus = "";
   }
   
-  public void würfeln()
+  public void wurfeln()
   {
     for(int i = 0; i < 5; i++)
     {
-      würfel[i] = 1 + Zufall.nextInt(6);
-      System.out.println("Würfel " + (i+1) + " :  " + würfel[i]);
+      wurfel[i] = 1 + Zufall.nextInt(6);
+      System.out.println("WÃ¼rfel " + (i+1) + " :  " + wurfel[i]);
     }
   }
   
   public void anfangen()
   {
-    würfel[0] = 1 + Zufall.nextInt(6);
+    wurfel[0] = 1 + Zufall.nextInt(6);
   }
   
   public void waehlen() throws IOException
   {
-    System.out.println("Als was soll ihr Wurf zählen?");
+    System.out.println("Als was soll ihr Wurf zÃ¤hlen?");
     if(genutzt[0] == false)
     {
       System.out.println("1. 1er");
@@ -1078,11 +1078,11 @@ class Wuerfel
     }
     if(genutzt[9] == false)
     {
-      System.out.println("10. Kleine Straße");
+      System.out.println("10. Kleine StraÃŸe");
     }
     if(genutzt[10] == false)
     {
-      System.out.println("11. Große Straße");
+      System.out.println("11. GroÃŸe StraÃŸe");
     }
     if(genutzt[11] == false)
     {
@@ -1152,7 +1152,7 @@ class Wuerfel
       case 5:
       if(genutzt[4] == false)
       {
-        this.fünfer();
+        this.fÃ¼nfer();
         genutzt[4] = true;
       }
       else
@@ -1267,20 +1267,20 @@ class Wuerfel
       break;
       
       default:
-      System.out.println("Ungültige Eingabe");
+      System.out.println("UngÃ¼ltige Eingabe");
       this.waehlen();
     }
     
   }
 
-  public void würfelraus() throws IOException
+  public void wurfelraus() throws IOException
   {
-    boolean[]erfüllt;
-    erfüllt = new boolean[5];
-    boolean[]erfüllter;
-    erfüllter = new boolean[5];
+    boolean[]erfÃ¼llt;
+    erfÃ¼llt = new boolean[5];
+    boolean[]erfÃ¼llter;
+    erfÃ¼llter = new boolean[5];
     System.out.println();
-    System.out.println("Noch mögliche Kästchen :");
+    System.out.println("Noch mÃ¶gliche KÃ¤stchen :");
     if(genutzt[0] == false)
     {
       System.out.println("1. 1er");
@@ -1322,11 +1322,11 @@ class Wuerfel
     }
     if(genutzt[9] == false)
     {
-      System.out.println("10. Kleine Straße");
+      System.out.println("10. Kleine StraÃŸe");
     }
     if(genutzt[10] == false)
     {
-      System.out.println("11. Große Straße");
+      System.out.println("11. GroÃŸe StraÃŸe");
     }
     if(genutzt[11] == false)
     {
@@ -1337,22 +1337,22 @@ class Wuerfel
       System.out.println("13. Chance");
     }
 
-    System.out.println("Welche Würfel wollen sie neu würfeln?");
-    würfelraus = br.readLine();
+    System.out.println("Welche WÃ¼rfel wollen sie neu wÃ¼rfeln?");
+    wurfelraus = br.readLine();
 
-    for(int i = 0; i <würfelraus.length(); i++)
+    for(int i = 0; i <wurfelraus.length(); i++)
     {
-     raus[i] = Integer.parseInt(würfelraus.substring(i,(i+1)));
+     raus[i] = Integer.parseInt(wurfelraus.substring(i,(i+1)));
     }
     
     if(raus[0] > 0)
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[0] - 1) == i && erfüllt[i] == false)
+       if((raus[0] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1362,10 +1362,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[1] - 1) == i && erfüllt[i] == false)
+       if((raus[1] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1375,10 +1375,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[2] - 1) == i && erfüllt[i] == false)
+       if((raus[2] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1388,10 +1388,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[3] - 1) == i && erfüllt[i] == false)
+       if((raus[3] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1401,10 +1401,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[4] - 1) == i && erfüllt[i] == false)
+       if((raus[4] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1412,30 +1412,30 @@ class Wuerfel
     
     for(int i = 0; i < 5; i++)
     {
-      System.out.println("Würfel " + (i + 1) + " :  " + würfel[i]);
+      System.out.println("WÃ¼rfel " + (i + 1) + " :  " + wurfel[i]);
     }
     
-    for(int i = 0; i < würfelraus.length(); i++)
+    for(int i = 0; i < wurfelraus.length(); i++)
     {
       raus[i] = 0;
     }
     
-    System.out.println("Welche Würfel wollen sie neu würfeln?");
-    würfelraus = br.readLine();
+    System.out.println("Welche WÃ¼rfel wollen sie neu wÃ¼rfeln?");
+    wurfelraus = br.readLine();
 
-    for(int i = 0; i <würfelraus.length(); i++)
+    for(int i = 0; i <wurfelraus.length(); i++)
     {
-     raus[i] = Integer.parseInt(würfelraus.substring(i,(i+1)));
+     raus[i] = Integer.parseInt(wurfelraus.substring(i,(i+1)));
     }
 
     if(raus[0] > 0)
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[0] - 1) == i && erfüllter[i] == false)
+       if((raus[0] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1445,10 +1445,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[1] - 1) == i && erfüllter[i] == false)
+       if((raus[1] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1458,10 +1458,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[2] - 1) == i && erfüllter[i] == false)
+       if((raus[2] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1471,10 +1471,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[3] - 1) == i && erfüllter[i] == false)
+       if((raus[3] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1484,10 +1484,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[4] - 1) == i && erfüllter[i] == false)
+       if((raus[4] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1495,10 +1495,10 @@ class Wuerfel
 
     for(int i = 0; i < 5; i++)
     {
-      System.out.println("Würfel " + (i + 1) + " :  " + würfel[i]);
+      System.out.println("WÃ¼rfel " + (i + 1) + " :  " + wurfel[i]);
     }
 
-    for(int i = 0; i < würfelraus.length(); i++)
+    for(int i = 0; i < wurfelraus.length(); i++)
     {
       raus[i] = 0;
     }
@@ -1509,9 +1509,9 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 1)
+      if(wurfel[i] == 1)
       {
-        ergebnis[0] = ergebnis[0] + würfel[i];
+        ergebnis[0] = ergebnis[0] + wurfel[i];
       }
     }
   }
@@ -1520,9 +1520,9 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 2)
+      if(wurfel[i] == 2)
       {
-        ergebnis[1] = ergebnis[1] + würfel[i];
+        ergebnis[1] = ergebnis[1] + wurfel[i];
       }
     }
   }
@@ -1531,9 +1531,9 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 3)
+      if(wurfel[i] == 3)
       {
-        ergebnis[2] = ergebnis[2] + würfel[i];
+        ergebnis[2] = ergebnis[2] + wurfel[i];
       }
     }
   }
@@ -1542,20 +1542,20 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 4)
+      if(wurfel[i] == 4)
       {
-        ergebnis[3] = ergebnis[3] + würfel[i];
+        ergebnis[3] = ergebnis[3] + wurfel[i];
       }
     }
   }
   
-  public void fünfer()
+  public void fÃ¼nfer()
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 5)
+      if(wurfel[i] == 5)
       {
-        ergebnis[4] = ergebnis[4] + würfel[i];
+        ergebnis[4] = ergebnis[4] + wurfel[i];
       }
     }
   }
@@ -1564,42 +1564,42 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == 6)
+      if(wurfel[i] == 6)
       {
-        ergebnis[5] = ergebnis[5] + würfel[i];
+        ergebnis[5] = ergebnis[5] + wurfel[i];
       }
     }
   }
   
   public void dreier()
   {
-    boolean erfüllt = false;
+    boolean erfÃ¼llt = false;
     int erledigt = 0;
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == würfel[0])
+      if(wurfel[i] == wurfel[0])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[1])
+      if(wurfel[i] == wurfel[1])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[2])
+      if(wurfel[i] == wurfel[2])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[3])
+      if(wurfel[i] == wurfel[3])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[4])
+      if(wurfel[i] == wurfel[4])
       {
         erledigt = erledigt + 1;
       }
       if(erledigt > 2)
       {
-        erfüllt = true;
+        erfÃ¼llt = true;
         break;
       }
       else
@@ -1607,11 +1607,11 @@ class Wuerfel
         erledigt = 0;
       }
     }
-    if(erfüllt == true)
+    if(erfÃ¼llt == true)
     {
       for(int x = 0; x < 5; x++)
       {
-        ergebnis[6] = ergebnis[6] + würfel[x];
+        ergebnis[6] = ergebnis[6] + wurfel[x];
       }
     }
     else
@@ -1623,33 +1623,33 @@ class Wuerfel
   
   public void vierer()
   {
-    boolean erfüllt = false;
+    boolean erfÃ¼llt = false;
     int erledigt = 0;
     for(int i = 0; i < 5; i++)
     {
-      if(würfel[i] == würfel[0])
+      if(wurfel[i] == wurfel[0])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[1])
+      if(wurfel[i] == wurfel[1])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[2])
+      if(wurfel[i] == wurfel[2])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[3])
+      if(wurfel[i] == wurfel[3])
       {
         erledigt = erledigt + 1;
       }
-      if(würfel[i] == würfel[4])
+      if(wurfel[i] == wurfel[4])
       {
         erledigt = erledigt + 1;
       }
       if(erledigt > 3)
       {
-        erfüllt = true;
+        erfÃ¼llt = true;
         break;
       }
       else
@@ -1657,11 +1657,11 @@ class Wuerfel
         erledigt = 0;
       }
     }
-    if(erfüllt == true)
+    if(erfÃ¼llt == true)
     {
       for(int x = 0; x < 5; x++)
       {
-        ergebnis[7] = ergebnis[7] + würfel[x];
+        ergebnis[7] = ergebnis[7] + wurfel[x];
       }
     }
     else
@@ -1674,8 +1674,8 @@ class Wuerfel
   
   public void fullhouse()
   {
-    Arrays.sort(würfel);
-    if(würfel[0] == würfel[1] && würfel[2] == würfel[3] && würfel[3] == würfel[4] || würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[3] == würfel[4])
+    Arrays.sort(wurfel);
+    if(wurfel[0] == wurfel[1] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] || wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[3] == wurfel[4])
     {
       ergebnis[8] = 25;
     }
@@ -1686,13 +1686,13 @@ class Wuerfel
   }
         public void klstrasse()
         {
-          Arrays.sort(würfel);
+          Arrays.sort(wurfel);
 
 
-            sortieren[0] = würfel[4] - würfel[3];
-            sortieren[1] = würfel[3] - würfel[2];
-            sortieren[2] = würfel[2] - würfel[1];
-            sortieren[3] = würfel[1] - würfel[0];
+            sortieren[0] = wurfel[4] - wurfel[3];
+            sortieren[1] = wurfel[3] - wurfel[2];
+            sortieren[2] = wurfel[2] - wurfel[1];
+            sortieren[3] = wurfel[1] - wurfel[0];
             if(sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 1 || sortieren[0] == 2 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 2 && sortieren[2] == 1 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 2 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 2 || sortieren[0] == 0 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 0 && sortieren[2] == 1 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 0 && sortieren[3] == 1 || sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 0)
             {
               ergebnis[9] = 30;
@@ -1708,13 +1708,13 @@ class Wuerfel
 
   public void grstrasse()
   {
-          Arrays.sort(würfel);
+          Arrays.sort(wurfel);
 
 
-            sortieren[0] = würfel[4] - würfel[3];
-            sortieren[1] = würfel[3] - würfel[2];
-            sortieren[2] = würfel[2] - würfel[1];
-            sortieren[3] = würfel[1] - würfel[0];
+            sortieren[0] = wurfel[4] - wurfel[3];
+            sortieren[1] = wurfel[3] - wurfel[2];
+            sortieren[2] = wurfel[2] - wurfel[1];
+            sortieren[3] = wurfel[1] - wurfel[0];
 
             if(sortieren[0] == 1 && sortieren[1] == 1 && sortieren[2] == 1 && sortieren[3] == 1)
             {
@@ -1732,7 +1732,7 @@ class Wuerfel
   
   public void Kniffel()
   {
-    if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4])
+    if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4])
     {
       ergebnis[11] = 50;
     }
@@ -1747,33 +1747,33 @@ class Wuerfel
   {
     for(int i = 0; i < 5; i++)
     {
-      ergebnis[12] = ergebnis[12] + würfel[i];
+      ergebnis[12] = ergebnis[12] + wurfel[i];
     }
   }
   
-  public void würfelraus2() throws IOException
+  public void wurfelraus2() throws IOException
   {
-    boolean[]erfüllt;
-    erfüllt = new boolean[5];
-    boolean[]erfüllter;
-    erfüllter = new boolean[5];
+    boolean[]erfÃ¼llt;
+    erfÃ¼llt = new boolean[5];
+    boolean[]erfÃ¼llter;
+    erfÃ¼llter = new boolean[5];
 
-    System.out.println("Welche Würfel wollen sie neu würfeln?");
-    würfelraus = this.suchen();
+    System.out.println("Welche WÃ¼rfel wollen sie neu wÃ¼rfeln?");
+    wurfelraus = this.suchen();
 
-    for(int i = 0; i <würfelraus.length(); i++)
+    for(int i = 0; i <wurfelraus.length(); i++)
     {
-     raus[i] = Integer.parseInt(würfelraus.substring(i,(i+1)));
+     raus[i] = Integer.parseInt(wurfelraus.substring(i,(i+1)));
     }
 
     if(raus[0] > 0)
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[0] - 1) == i && erfüllt[i] == false)
+       if((raus[0] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1783,10 +1783,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[1] - 1) == i && erfüllt[i] == false)
+       if((raus[1] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1796,10 +1796,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[2] - 1) == i && erfüllt[i] == false)
+       if((raus[2] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1809,10 +1809,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[3] - 1) == i && erfüllt[i] == false)
+       if((raus[3] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1822,10 +1822,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[4] - 1) == i && erfüllt[i] == false)
+       if((raus[4] - 1) == i && erfÃ¼llt[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllt[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llt[i] = true;
          break;
        }
      }
@@ -1833,30 +1833,30 @@ class Wuerfel
 
     for(int i = 0; i < 5; i++)
     {
-      System.out.println("Würfel" + (i + 1) + " " + würfel[i]);
+      System.out.println("WÃ¼rfel" + (i + 1) + " " + wurfel[i]);
     }
 
-    for(int i = 0; i < würfelraus.length(); i++)
+    for(int i = 0; i < wurfelraus.length(); i++)
     {
       raus[i] = 0;
     }
 
-    System.out.println("Welche Würfel wollen sie neu würfeln?");
-    würfelraus = this.suchen();
+    System.out.println("Welche WÃ¼rfel wollen sie neu wÃ¼rfeln?");
+    wurfelraus = this.suchen();
 
-    for(int i = 0; i <würfelraus.length(); i++)
+    for(int i = 0; i <wurfelraus.length(); i++)
     {
-     raus[i] = Integer.parseInt(würfelraus.substring(i,(i+1)));
+     raus[i] = Integer.parseInt(wurfelraus.substring(i,(i+1)));
     }
 
     if(raus[0] > 0)
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[0] - 1) == i && erfüllter[i] == false)
+       if((raus[0] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1866,10 +1866,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[1] - 1) == i && erfüllter[i] == false)
+       if((raus[1] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1879,10 +1879,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[2] - 1) == i && erfüllter[i] == false)
+       if((raus[2] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1892,10 +1892,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[3] - 1) == i && erfüllter[i] == false)
+       if((raus[3] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1905,10 +1905,10 @@ class Wuerfel
     {
      for(int i = 0; i < 5; i++)
      {
-       if((raus[4] - 1) == i && erfüllter[i] == false)
+       if((raus[4] - 1) == i && erfÃ¼llter[i] == false)
        {
-         würfel[i] = 1 + Zufall.nextInt(6);
-         erfüllter[i] = true;
+         wurfel[i] = 1 + Zufall.nextInt(6);
+         erfÃ¼llter[i] = true;
          break;
        }
      }
@@ -1916,10 +1916,10 @@ class Wuerfel
 
     for(int i = 0; i < 5; i++)
     {
-      System.out.println("Würfel" + (i+1) + " " + würfel[i]);
+      System.out.println("WÃ¼rfel" + (i+1) + " " + wurfel[i]);
     }
 
-    for(int i = 0; i < würfelraus.length(); i++)
+    for(int i = 0; i < wurfelraus.length(); i++)
     {
       raus[i] = 0;
     }
@@ -1928,7 +1928,7 @@ class Wuerfel
 
   public void waehlen2()
   {
-    System.out.println("Als was soll ihr Wurf zählen?");
+    System.out.println("Als was soll ihr Wurf zÃ¤hlen?");
     if(genutzt[0] == false)
     {
       System.out.println("1. 1er");
@@ -1970,11 +1970,11 @@ class Wuerfel
     }
     if(genutzt[9] == false)
     {
-      System.out.println("10. Kleine Straße");
+      System.out.println("10. Kleine StraÃŸe");
     }
     if(genutzt[10] == false)
     {
-      System.out.println("11. Große Straße");
+      System.out.println("11. GroÃŸe StraÃŸe");
     }
     if(genutzt[11] == false)
     {
@@ -2044,7 +2044,7 @@ class Wuerfel
       case 5:
       if(genutzt[4] == false)
       {
-        this.fünfer();
+        this.fÃ¼nfer();
         genutzt[4] = true;
       }
       else
@@ -2159,7 +2159,7 @@ class Wuerfel
       break;
 
       default:
-      System.out.println("Ungültige Eingabe");
+      System.out.println("UngÃ¼ltige Eingabe" + waehlen);
       this.waehlen2();
     }
 
@@ -2167,71 +2167,71 @@ class Wuerfel
 
   public String erkennen()
   {
-   Arrays.sort(würfel);
-   if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[11] == false) // Kniffel?
+   Arrays.sort(wurfel);
+   if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[11] == false) // Kniffel?
    {
      return "12";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 && genutzt[10] == false)  // GroßeStraße?
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[10] == false)  // GroÃŸeStraÃŸe?
    {
      return "11";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) != 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) != 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) != 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) != 1 && genutzt[9]  == false)  // kleineStraße?
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) != 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) != 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) != 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) != 1 && genutzt[9]  == false)  // kleineStraÃŸe?
    {
      return "10";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[3] == würfel[4] || würfel[0] == würfel[1] && würfel[2] == würfel[3] && würfel[3] == würfel[4]  && genutzt[8] == false) // Full House?
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[3] == wurfel[4] && genutzt[8] == false || wurfel[0] == wurfel[1] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4]  && genutzt[8] == false) // Full House?
    {
      return "9";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] || würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[7] == false)  // Viererpasch?
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[7] == false || wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[7] == false)  // Viererpasch?
    {
      return "8";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && genutzt[6] == false)  // Dreierpasch1
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && genutzt[6] == false)  // Dreierpasch1
    {
     return "7";
    }
-   else if(würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[6] == false)  // Dreierpasch2
+   else if(wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[6] == false)  // Dreierpasch2
    {
      return "7";
    }
-   else if(würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[6] == false)  // Dreierpasch3
+   else if(wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[6] == false)  // Dreierpasch3
    {
     return "7";
    }
-   else if(würfel[4] == 6 && würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[5] == false || würfel[4] == 6 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[5] == false || würfel[4] == 6 && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[5] == false)
+   else if(wurfel[4] == 6 && wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[5] == false || wurfel[4] == 6 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[5] == false || wurfel[4] == 6 && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[5] == false)
    {
      return "6";
    }
-   else if(würfel[4] == 5 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[4] == false || würfel[4] == 5 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && genutzt[4] == false || würfel[4] == 5 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[4] == false || würfel[4] == 5 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && genutzt[4] == false || würfel[3] == 5 && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[4] == false || würfel[2] == 5 && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[4] == false || würfel[2] == 5 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[4] == false)
+   else if(wurfel[4] == 5 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[4] == false || wurfel[4] == 5 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && genutzt[4] == false || wurfel[4] == 5 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[4] == false || wurfel[4] == 5 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && genutzt[4] == false || wurfel[3] == 5 && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[4] == false || wurfel[2] == 5 && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[4] == false || wurfel[2] == 5 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[4] == false)
    {
      return "5";
    }
-   else if(würfel[4] == 4 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[3] == false || würfel[4] == 4 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && genutzt[3] == false || würfel[4] == 4 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[3] == false || würfel[4] == 4 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && genutzt[3] == false || würfel[3] == 4 && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[3] == false || würfel[2] == 4 && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[3] == false || würfel[2] == 4 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[3] == false)
+   else if(wurfel[4] == 4 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[3] == false || wurfel[4] == 4 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && genutzt[3] == false || wurfel[4] == 4 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[3] == false || wurfel[4] == 4 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && genutzt[3] == false || wurfel[3] == 4 && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[3] == false || wurfel[2] == 4 && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[3] == false || wurfel[2] == 4 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[3] == false)
    {
      return "4";
    }
-   else if(würfel[4] == 3 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[2] == false || würfel[4] == 3 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && genutzt[2] == false || würfel[4] == 3 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[2] == false || würfel[4] == 3 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && genutzt[2] == false || würfel[3] == 3 && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[2] == false || würfel[2] == 3 && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[2] == false || würfel[2] == 3 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[2] == false)
+   else if(wurfel[4] == 3 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[2] == false || wurfel[4] == 3 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && genutzt[2] == false || wurfel[4] == 3 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[2] == false || wurfel[4] == 3 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && genutzt[2] == false || wurfel[3] == 3 && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[2] == false || wurfel[2] == 3 && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[2] == false || wurfel[2] == 3 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[2] == false)
    {
      return "3";
    }
-   else if(würfel[4] == 2 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[1] == false || würfel[4] == 2 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && genutzt[1] == false || würfel[1] == 2 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[1] == false || würfel[4] == 2 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && genutzt[1] == false || würfel[3] == 2 && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[1] == false || würfel[2] == 2 && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[1] == false || würfel[2] == 2 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[1] == false)
+   else if(wurfel[4] == 2 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[1] == false || wurfel[4] == 2 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && genutzt[1] == false || wurfel[1] == 2 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[1] == false || wurfel[4] == 2 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && genutzt[1] == false || wurfel[3] == 2 && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[1] == false || wurfel[2] == 2 && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[1] == false || wurfel[2] == 2 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[1] == false)
    {
      return "2";
    }
-   else if(würfel[4] == 5 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[0] == false || würfel[4] == 1 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && genutzt[0] == false || würfel[4] == 1 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[0] == false || würfel[4] == 1 && würfel[4] == würfel[3] && würfel[3] == würfel[2] && genutzt[0] == false || würfel[3] == 1 && würfel[3] == würfel[2] && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[0] == false || würfel[2] == 1 && würfel[2] == würfel[1] && würfel[1] == würfel[0] && genutzt[0] == false || würfel[2] == 1 && würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[0] == false)
+   else if(wurfel[4] == 5 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[0] == false || wurfel[4] == 1 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && genutzt[0] == false || wurfel[4] == 1 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[0] == false || wurfel[4] == 1 && wurfel[4] == wurfel[3] && wurfel[3] == wurfel[2] && genutzt[0] == false || wurfel[3] == 1 && wurfel[3] == wurfel[2] && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[0] == false || wurfel[2] == 1 && wurfel[2] == wurfel[1] && wurfel[1] == wurfel[0] && genutzt[0] == false || wurfel[2] == 1 && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[0] == false)
    {
      return "3";
    }
    else
    {
-    String speicher = " ";
+    String speicher = "";
     for(int i = 0; i < 13; i++)
     {
       if(genutzt[i] == false)
       {
-        speicher.replace(' ', ((char)i));
+          speicher = Integer.toString((i+1));
         return speicher;
       }
       if(genutzt[i] == false)
@@ -2245,56 +2245,56 @@ class Wuerfel
 
   public String suchen()
   {
-   Arrays.sort(würfel);
-   if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[11] == false) // Kniffel?
+   Arrays.sort(wurfel);
+   if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[11] == false) // Kniffel?
    {
      return "0";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 && genutzt[10] == false)  // GroßeStraße?
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[10] == false)  // GroÃŸeStraÃŸe?
    {
      return "0";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) != 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) != 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) != 1 && (würfel[1] - würfel[0]) == 1 || (würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) != 1 && genutzt[9]  == false)  // kleineStraße?
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) != 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) != 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9] == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) != 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[9]  == false || (wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) != 1 && genutzt[9]  == false)  // kleineStraÃŸe?
    {
      return "0";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[3] == würfel[4] || würfel[0] == würfel[1] && würfel[2] == würfel[3] && würfel[3] == würfel[4]  && genutzt[8] == false) // Full House?
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[3] == wurfel[4] && genutzt[8] == false || wurfel[0] == wurfel[1] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[8] == false) // Full House?
    {
      return "0";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && würfel[2] == würfel[3] || würfel[1] == würfel[2] && würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[7] == false)  // Viererpasch?
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[7] == false || wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[7] == false)  // Viererpasch?
    {
      return "0";
    }
-   else if(würfel[0] == würfel[1] && würfel[1] == würfel[2] && genutzt[6] == false)  // Dreierpasch1
+   else if(wurfel[0] == wurfel[1] && wurfel[1] == wurfel[2] && genutzt[6] == false)  // Dreierpasch1
    {
     return "45";
    }
-   else if(würfel[1] == würfel[2] && würfel[2] == würfel[3] && genutzt[6] == false)  // Dreierpasch2
+   else if(wurfel[1] == wurfel[2] && wurfel[2] == wurfel[3] && genutzt[6] == false)  // Dreierpasch2
    {
      return "15";
    }
-   else if(würfel[2] == würfel[3] && würfel[3] == würfel[4] && genutzt[6] == false)  // Dreierpasch3
+   else if(wurfel[2] == wurfel[3] && wurfel[3] == wurfel[4] && genutzt[6] == false)  // Dreierpasch3
    {
     return "12";
    }
-   else if((würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 && genutzt[10] == false) // Gr Straßenbau
+   else if((wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[10] == false) // Gr StraÃŸenbau
    {
      return "5";
    }
-   else if((würfel[4] - würfel[2]) == 2 && (würfel[3] - würfel[2]) != 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) == 1 && genutzt[10] == false) // Gr Straßenbau
+   else if((wurfel[4] - wurfel[2]) == 2 && (wurfel[3] - wurfel[2]) != 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[10] == false) // Gr StraÃŸenbau
    {
      return "4";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[1]) == 2 && (würfel[2] - würfel[1]) != 1 && (würfel[1] - würfel[0]) == 1 && genutzt[10] == false) // Gr Straßenbau
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[1]) == 2 && (wurfel[2] - wurfel[1]) != 1 && (wurfel[1] - wurfel[0]) == 1 && genutzt[10] == false) // Gr StraÃŸenbau
    {
      return "3";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[0]) == 2 && (würfel[1] - würfel[0]) != 1 && genutzt[10] == false) // Gr Straßenbau
+   else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[0]) == 2 && (wurfel[1] - wurfel[0]) != 1 && genutzt[10] == false) // Gr StraÃŸenbau
    {
      return "2";
    }
-   else if((würfel[4] - würfel[3]) == 1 && (würfel[3] - würfel[2]) == 1 && (würfel[2] - würfel[1]) == 1 && (würfel[1] - würfel[0]) != 1 && genutzt[10] == false) // Gr Straßenbau
+    else if((wurfel[4] - wurfel[3]) == 1 && (wurfel[3] - wurfel[2]) == 1 && (wurfel[2] - wurfel[1]) == 1 && (wurfel[1] - wurfel[0]) != 1 && genutzt[10] == false) // Gr StraÃŸenbau
    {
      return "1";
    }
